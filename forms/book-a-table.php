@@ -3,7 +3,7 @@
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'contact@example.com';
 
-    include( '../assets/vendor/php-email-form/php-email-form.php' );
+  include( '../assets/vendor/php-email-form/php-email-form.php' );
 
   $book_a_table = new PHP_Email_Form;
   $book_a_table->ajax = true;
